@@ -1,0 +1,44 @@
+
+.weather_display{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  border: solid 3px red;
+}
+
+.AutoComplete {
+ margin-top: 1rem;
+  width: 90%;
+  border:1px solid #ccc;
+  height: 50px;
+  background-color: rgb(139, 214, 189);
+}
+.AutoComplete input{
+  width: 100%;
+  border:none;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: aqua;
+}
+.AutoComplete ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solod #941111;
+}
+.AutoComplete li {
+  padding: 10px;
+  cursor: pointer;
+}
+.AutoComplete li:hover{
+  text-decoration: underline;
+  background-color: #50c72150;
+}
+
+
+
+

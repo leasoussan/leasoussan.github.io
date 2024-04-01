@@ -1,0 +1,42 @@
+.contact_container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   height: 50vh;
+   width: 100%;
+   margin-top: 10rem;
+}
+
+.contact_form_container{
+   height: 50%;
+   width: 60%;
+}
+
+.form_display{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#email{
+   width: 60%;
+}
+
+#message{
+   min-height: 10rem ;
+   width: 60%;
+}
+
+#submit_btn{
+   margin-top: 3rem;
+   width: 20%;
+   
+}  
+
+.contact_info{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   height: 50%;
+}
