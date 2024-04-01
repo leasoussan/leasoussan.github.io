@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/leasoussan.github.io/static/css/main.d04b5eef.css",
-    "main.js": "/leasoussan.github.io/static/js/main.2a39b0d0.js",
-    "static/js/787.128fc6e9.chunk.js": "/leasoussan.github.io/static/js/787.128fc6e9.chunk.js",
-    "static/media/myAvatar.png": "/leasoussan.github.io/static/media/myAvatar.70639e5b0690cd181994.png",
-    "static/media/full_stack_dev.pdf": "/leasoussan.github.io/static/media/full_stack_dev.da541ce59e46c72f957c.pdf",
-    "index.html": "/leasoussan.github.io/index.html",
-    "main.d04b5eef.css.map": "/leasoussan.github.io/static/css/main.d04b5eef.css.map",
-    "main.2a39b0d0.js.map": "/leasoussan.github.io/static/js/main.2a39b0d0.js.map",
-    "787.128fc6e9.chunk.js.map": "/leasoussan.github.io/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/static/css/main.d04b5eef.css",
+    "main.js": "/static/js/main.29d0d9c7.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/myAvatar.png": "/static/media/myAvatar.70639e5b0690cd181994.png",
+    "static/media/full_stack_dev.pdf": "/static/media/full_stack_dev.da541ce59e46c72f957c.pdf",
+    "index.html": "/index.html",
+    "main.d04b5eef.css.map": "/static/css/main.d04b5eef.css.map",
+    "main.29d0d9c7.js.map": "/static/js/main.29d0d9c7.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d04b5eef.css",
-    "static/js/main.2a39b0d0.js"
+    "static/js/main.29d0d9c7.js"
   ]
 }
