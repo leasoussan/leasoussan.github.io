@@ -20,9 +20,9 @@ const formattedTime = date.toLocaleTimeString();
 //   const formattedTime = moment(date).tz(timezone).format('h:mm:ss A');
 
    return (
-    <div>
-      <p>Date: {formattedDate}</p>
-      <p>Time: {formattedTime}</p>
+    <div className='time_date_style'>
+      <p> {formattedDate}</p>
+      <p> {formattedTime}</p>
     </div>
   );
 }

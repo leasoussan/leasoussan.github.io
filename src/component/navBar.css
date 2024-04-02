@@ -1,0 +1,7 @@
+.time_date_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    width: 17vw;
+}

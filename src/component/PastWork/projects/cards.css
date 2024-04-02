@@ -1,0 +1,19 @@
+.MuiCard-root{
+    min-width: 20vw ;
+    max-width: 20vw ;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.MuiCardContent-root{
+height: 45%;
+overflow-y: scroll;
+}
+
+.MuiButton-root {
+    width: 50%;
+    color: purple;
+    background-color: rgb(211, 198, 223);
+}

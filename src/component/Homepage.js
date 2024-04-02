@@ -2,18 +2,20 @@ import React from "react";
 import WeatherBox from "./weather/WeatherBox";
 import portrait from "../images/myAvatar.png";
 import "./Homepage.css";
-import "./contactMeForm.css"
+import "./contactMeForm.css";
 import TimeAndDate from "../component/TimeDate.js";
 import { Link } from "react-router-dom";
-import PastWork from "../component/PastWork/Pastwork.js";
+import PastWork from "./PastWork/projects/kiwep/kiwep_project.js";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import KiwepCard from "./PastWork/kiwepCard.js";
 import Navbar from "./Navbar.js";
 import fullStackDevResume from "./full_stack_dev.pdf";
-import LandFCard from "./PastWork/landfCard.js";
-import VisualeyesCard from "./PastWork/visualeyesCard.js";
+import KiwepCard from "./PastWork/projects/kiwep/kiwepCard.js";
+import LandFCard from "./PastWork/projects/landf/landfCard.js";
+import VisualeyesCard from "./PastWork/projects/visualeyes/visualeyesCard.js";
 import ContactForm from "./contactMeForm.js";
+import "../component/PastWork/projects/cards.css";
+import { colors } from "@mui/material";
 
 const Homepage = () => {
   const openResume = () => {
@@ -22,12 +24,7 @@ const Homepage = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
-      <div s={8} m={4} lg={3}>
-        <TimeAndDate />
-        {/* <WeatherBox /> */}
-      </div>
-
+     
       <Container className="mainContainer_homePage" maxWidth="xlg">
         <div className="header_box">
           <div>
@@ -35,8 +32,8 @@ const Homepage = () => {
             <h1> Lea Soussan </h1>
 
             <h3>
-              Artist in my Soul, creative in my mind...and a Problem solver
-              any where I look
+              Artist in my Soul, creative in my mind...and a Problem solver any
+              where I look
             </h3>
           </div>
           <div className="image_background">
@@ -89,20 +86,14 @@ const Homepage = () => {
       </div>
 
       <div className="past_project_banner" maxWidth="xlg">
-        <a href="https://github.com/leasoussan"><h2> Past Work </h2> </a>
+       <h2 >Past Projects</h2>
+        <a href="https://github.com/leasoussan">
+          <h4> My Github</h4>{" "}
+        </a>
         <div className="past_project_display">
-          {/* <Link to="/past_work"> */}
-          <Link>
-            <KiwepCard />
-          </Link>
-
-          <Link>
-            <LandFCard />
-          </Link>
-
-          <Link>
-            <VisualeyesCard />
-          </Link>
+          <KiwepCard />
+          <LandFCard />
+          <VisualeyesCard />
         </div>
       </div>
 
@@ -164,9 +155,7 @@ const Homepage = () => {
         </ul>
       </div>
 
-
-        <ContactForm />
-      
+      <ContactForm />
     </>
   );
 };

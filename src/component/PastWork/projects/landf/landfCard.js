@@ -4,16 +4,18 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
+import { Link } from '@mui/material';
 import Typography from '@mui/material/Typography';
+// import '../cards.css'
 
 export default function LandFCard() {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      {/* <CardMedia
+      <CardMedia
         sx={{ height: 300 }}
         image="/static/images/cards/contemplative-reptile.jpg"
         title="kiwep MVP app"
-      /> */}
+      />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
          Land F- find your stuff
@@ -23,8 +25,11 @@ export default function LandFCard() {
         </Typography>
       </CardContent>
       <CardActions>
-      <Button size="small"><a href='https://github.com/leasoussan/landf_app'> CODE </a></Button>
-        {/* <Button size="small">Learn More</Button> */}
+      <Button href='https://github.com/leasoussan/landf_app'> CODE </Button>
+      <Link component={Button}  href="/landf_projet_detail">      
+          See Project
+        </Link>
+      
       </CardActions>
     </Card>
   );

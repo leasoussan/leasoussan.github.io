@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import WeatherBox from './component/weather/WeatherBox.js';
 import Homepage from './component/Homepage.js';
 import Approuter from './AppRouter.js';
+import Navbar from './component/Navbar.js';
+import ErrorBoundary from './ErrorBoundry.js';
 export const AppContext = createContext(null);
 
 function App() {
@@ -15,7 +17,6 @@ function App() {
 
   return (
 
-
     <AppContext.Provider value={{
       city,
       setCity,
@@ -25,15 +26,9 @@ function App() {
       setCityKey
     }}>
       <div className="main">
-
         <Approuter/>
-        
-
-
-         
       </div>
     </AppContext.Provider>
-
   );
 }
 
